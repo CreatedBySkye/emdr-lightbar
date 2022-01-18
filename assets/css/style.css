@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+
+h3 {
+    font-family: 'Poller One', cursive;
+    font-size: 40px;
+}
+.light_bulb {
+    margin: 2px;
+    flex-grow: 5;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.lightbar_container {
+    display: flex;
+    border: 6px solid rgb(128, 128, 128);
+    border-radius: 12px;
+    width: 100%;
+}
+
+
+.lightbar_wrapper {
+    display: none;
+}
+
+body {
+    text-align: center;
+    background-image: url("../images/clouds3.jpg");
+    background-image:-webkit-image-set("../images/clouds3.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 320px -400px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Signika', sans-serif;
+
+}
+
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+.settings_form .row {
+    margin-bottom: 8px;
+}
+
+.settings_form {
+    margin-top: 40px;
+}
+
+.settings_form label {
+    width:200px;
+    display: inline-block;
+}
+
+button {
+    border-radius: 20px;
+    border: 3px solid #1f0066;
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 13px 27px;
+    text-decoration: none;
+    text-shadow: 1px 5px 3px #ff00bf;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(50, 0, 129);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn_stop {
+    background-color:#165b7a;
+}
+
+.btn_stop:hover {
+    background-color:#f545a6;
+}
+
+.btn_start {
+    background-color:#3662a5;
+}
+
+.btn_start:hover {
+    background-color:#81f8da;
+}
+
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+.settings_form {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+    margin-left: 530px;
+    background-color: rgba(183, 221, 243, 0.562);
+}

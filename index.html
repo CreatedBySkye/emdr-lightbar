@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <title>EMDR Therapy Lightbar</title>
+</head>
+<body>
+<div class="settings_form" id="settings_form">
+    <h3>EMDR Therapy Lightbar</h3>
+    <form name="settings">
+        <div class="row">
+            <label for="duration">Duration (seconds)</label>
+            <input id="duration" type="text" value="100">
+        </div>
+        <div class="row">
+            <label for="color">Light bulb color</label>
+            <select id="color">
+            </select>
+        </div>
+        <div class="row">
+            <label for="mode">Display Mode</label>
+            <select id="mode">
+                <option value="slide">Slide</option>
+                <option value="flicker">Flicker</option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="bulb_pause">Time on inside light bulb (ms)</label>
+            <input id="bulb_pause" type="text" value="10">
+        </div>
+        <div class="row">
+            <label for="edge_pause">Time on edge light bulb(ms)</label>
+            <input id="edge_pause" 1ztype="text" value="100">
+        </div>
+        <div class="row">
+            <label for="sound_on">Play sound</label>
+            <input id="sound_on" type="checkbox" value="on">
+        </div>
+        <div class="row">
+            <label for="frequency">Sound frequency (<span id="frequency_value">200</span> hertz)</label>
+            <input id="frequency" type="range" min="100" max="800" value="400" onchange="frequencyChange()">
+        </div>
+
+
+        <button type="button" class="btn_start" onclick="start(), change(this)">Start</button>
+    </form>
+</div>
+
+</body>
+
+<div id="lightbar_wrapper" class="lightbar_wrapper">
+<div class="lightbar_container" id="lightbar_container"></div>
+
+
+<button type="button" class="btn_stop" onclick="stop(), changeBack(this)">Stop</button>
+</div>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/colorPicker.js"></script>
+</body>
+
+</html>
