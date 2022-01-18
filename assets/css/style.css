@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 
 
 h3 {
-    font-family: 'Poller One', cursive;
-    font-size: 40px;
+    font-family: 'Calistoga', cursive;
+    font-size: 45px;
+    background: -moz-linear-gradient(45deg, rgba(66,53,183,1) 0%, rgba(66,53,183,0.98) 9%, rgba(229,165,204,0.95) 28%, rgba(252,121,252,0.94) 33%, rgba(106,183,247,0.89) 61%, rgba(112,34,247,0.87) 76%, rgba(112,34,247,0.83) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(66,53,183,1) 0%,rgba(66,53,183,0.98) 9%,rgba(229,165,204,0.95) 28%,rgba(252,121,252,0.94) 33%,rgba(106,183,247,0.89) 61%,rgba(112,34,247,0.87) 76%,rgba(112,34,247,0.83) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(66,53,183,1) 0%,rgba(66,53,183,0.98) 9%,rgba(229,165,204,0.95) 28%,rgba(252,121,252,0.94) 33%,rgba(106,183,247,0.89) 61%,rgba(112,34,247,0.87) 76%,rgba(112,34,247,0.83) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(50, 0, 129);
 }
 .light_bulb {
     margin: 2px;
@@ -16,7 +22,7 @@ h3 {
 
 .lightbar_container {
     display: flex;
-    border: 6px solid rgb(128, 128, 128);
+    border: 6px solid rgb(21, 226, 131);
     border-radius: 12px;
     width: 100%;
 }
@@ -75,19 +81,23 @@ button {
 }
 
 .btn_stop {
-    background-color:#165b7a;
+    background: -moz-linear-gradient(45deg, rgba(66,53,183,1) 0%, rgba(66,53,183,0.98) 9%, rgba(229,165,204,0.95) 28%, rgba(252,121,252,0.94) 33%, rgba(106,183,247,0.89) 61%, rgba(112,34,247,0.87) 76%, rgba(112,34,247,0.83) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(66,53,183,1) 0%,rgba(66,53,183,0.98) 9%,rgba(229,165,204,0.95) 28%,rgba(252,121,252,0.94) 33%,rgba(106,183,247,0.89) 61%,rgba(112,34,247,0.87) 76%,rgba(112,34,247,0.83) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(66,53,183,1) 0%,rgba(66,53,183,0.98) 9%,rgba(229,165,204,0.95) 28%,rgba(252,121,252,0.94) 33%,rgba(106,183,247,0.89) 61%,rgba(112,34,247,0.87) 76%,rgba(112,34,247,0.83) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .btn_stop:hover {
-    background-color:#f545a6;
+    background-color:#850049;
 }
 
 .btn_start {
-    background-color:#3662a5;
+    background: -moz-linear-gradient(45deg, rgba(66,53,183,1) 0%, rgba(66,53,183,0.98) 9%, rgba(229,165,204,0.95) 28%, rgba(252,121,252,0.94) 33%, rgba(106,183,247,0.89) 61%, rgba(112,34,247,0.87) 76%, rgba(112,34,247,0.83) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(66,53,183,1) 0%,rgba(66,53,183,0.98) 9%,rgba(229,165,204,0.95) 28%,rgba(252,121,252,0.94) 33%,rgba(106,183,247,0.89) 61%,rgba(112,34,247,0.87) 76%,rgba(112,34,247,0.83) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(66,53,183,1) 0%,rgba(66,53,183,0.98) 9%,rgba(229,165,204,0.95) 28%,rgba(252,121,252,0.94) 33%,rgba(106,183,247,0.89) 61%,rgba(112,34,247,0.87) 76%,rgba(112,34,247,0.83) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .btn_start:hover {
-    background-color:#81f8da;
+    background-color:#00ffbf;
 }
 
 
@@ -96,9 +106,11 @@ button {
     top: 1px;
 }
 .settings_form {
+    padding-top: 5px;
+    margin-top: 50px;
+    padding-bottom: 20px;
     width: 500px;
-    padding: 20px 20px 20px 20px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 530px;
     background-color: rgba(183, 221, 243, 0.562);
 }
