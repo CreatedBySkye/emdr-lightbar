@@ -1,5 +1,5 @@
 const CSS_COLOR_NAMES = [
-    
+
     "AliceBlue",
     "AntiqueWhite",
     "Aqua",
