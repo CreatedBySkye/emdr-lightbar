@@ -1,6 +1,6 @@
 const settings = {
   bulbCount: 20,
-  background_color_on: "cyan",
+  background_color_on: "orange",
   background_color_off: "white",
   height: "50px",
   bulb_pause: 10,
@@ -94,7 +94,7 @@ async function setUpLightbar() {
     el.style.backgroundColor = opt;
     document.getElementById("color").appendChild(el);
   }
-  document.getElementById("color").value = "Cyan";
+  document.getElementById("color").value = "Orange";
 }
 
 let context = null;
